@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Concessionária </title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+   <div class="container">
+      <h2> Veiculos No Patio</h2>
+      <form action="#" method="POST" novalidate autocomplete="off">
+
+         <div class="form-group">
+            <label for="modelo"> Modelo: </label>
+            <input type="text" id="modelo" name="modelo" required>
+         </div>
+
+         <div class="form-group">
+            <label for="marca"> Marca: </label>
+            <input type="text" id="marca" name="marca" required>
+         </div>
+
+         <div class="form-group">
+            <label for="ano">Ano:</label>
+            <input type="text" id="ano" name="ano" required>
+         </div>
+         
+         <div class="form-group">
+            <label for="cor">Cor:</label>
+            <input type="text" id="cor" name="cor" required>
+         </div>
+
+         <div class="form-group">
+            <label for="motor">Motor:</label>
+            <input type="text" id="motor" name="motor" required>
+         </div>
+
+         <div class="form-group">
+            <label for="portas">Quantidades/Portas:</label>
+            <input type="text" id="portas" name="portas" required>
+         </div>
+
+         <div class="form-group">
+            <label for="cambio">Automatico / Manual:</label>
+            <input type="text" id="cambio" name="cambio" required>
+         </div>
+
+         <div class="form-group">
+            <label for="unidade">Unidades Disponivel:</label>
+            <input type="text" id="unidade" name="unidade" required>
+         </div>
+
+         <div class="form-group">
+            <label for="preco">Preço:</label>
+            <input type="text" id="preco" name="preco" pattern="[0-9]*" inputmode="numeric" required>
+         </div>
+
+         <div class="form-group">
+            <button type="submit"> Cadastrar </button>
+
+            <div id="dados-formulario"></div>
+         </div>
+
+      </form>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
+
